@@ -1,4 +1,4 @@
-TicTacToe = Class.new do
+tictactoe = Class.new do
 
 
 def initialize(board = nil)
