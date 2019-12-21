@@ -56,7 +56,7 @@ def current_player
     else
     "O"
   end
-
+end
   
 
 end
