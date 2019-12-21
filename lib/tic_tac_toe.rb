@@ -35,5 +35,5 @@ def display_board
      def position_taken?(index_i)
        ((@board[index_i] == "X") || (@board[index_i] == "O"))
      end
-    
+
 end
