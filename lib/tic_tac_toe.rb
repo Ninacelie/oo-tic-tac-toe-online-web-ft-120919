@@ -1,6 +1,6 @@
 class TicTacToe
 
-  TicTacToe.new(TicTacToe)
+  TicTacToe.new
 
 def initialize(board = nil)
   @board = board || Array.new(9, " ")
