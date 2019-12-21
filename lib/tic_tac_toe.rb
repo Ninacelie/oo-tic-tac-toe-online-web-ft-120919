@@ -6,6 +6,3 @@ def initialize(board = nil)
 end
 
 end
-
-
-
