@@ -27,4 +27,13 @@ def display_board
   def input_to_index(user_input)
       user_input.to_i - 1
     end
+
+    def move(position, char)
+       @board[position] = char
+     end
+   # For #move to work, we need to position_taken and valid_move
+     def position_taken?(index_i)
+       ((@board[index_i] == "X") || (@board[index_i] == "O"))
+     end
+    
 end
