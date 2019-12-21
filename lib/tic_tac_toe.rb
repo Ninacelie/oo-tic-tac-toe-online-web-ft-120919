@@ -86,4 +86,13 @@ end
 def full?
 @board.all?{|occupied| occupied != " "}
 end
+
+def draw?
+  !(won?) && (full?)
+end
+
+#over?
+def over?
+  won? || full? || draw?
+end
 end
